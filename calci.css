@@ -1,0 +1,41 @@
+* {
+  padding: 10px;
+    text-align: center;
+}
+.cal{
+  background-color:mediumblue;
+    padding-top: 100px;
+    padding-left:560px;
+}
+.calculator {
+   background-color: steelblue;
+ width: 200px;
+  height: 400px;
+    
+ }
+#display {
+background-color: black;
+  
+  text-align: right;
+  color: white;
+  font-size: 50px;
+  left: 2px;
+  top: 2px;
+    width: 450px;
+  height: 80px;
+  
+}
+.buttons{
+  color: black;
+font-size: 14px;
+
+}
+td,tr{
+    width: auto;
+    height: auto;
+}
+footer{
+    text-align: center;
+    padding-right: 690px;
+    color: yellow;
+}

@@ -1,0 +1,61 @@
+<!Doctype html>
+<html lang="en">
+    
+    <head>
+  <script src="calci.js"></script>
+<link rel="stylesheet"href="calci.css">
+</head>
+    <body class="cal">
+    
+    <form name="scientific calculator">
+ <table class="calculator" cellspacing="20">
+   <tr class="buttons">
+     <td colspan="5"><input id="display"value="0"></td>
+   </tr>
+   <tr>
+    <td><input type="button" value="(" onclick="userProcessEntry(this)"></td>
+    <td><input type="button"  value=")" onclick="userProcessEntry(this)"></td>
+    <td><input type="button" value="PI" onclick="sci(this)"></td>
+    <td><input type="button" value="Bks" onclick="backEntry()"></td>
+   <td><input type="button" value="Clear" onclick="clearEntry()"></td></tr>
+   <tr>
+     <td><input type="button" value="7" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="8" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="9" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="x100" onclick="multiplier(this)"></td>
+     <td><input type="button" value="/" onclick="userProcessEntry(this)"></td>
+   <tr>
+     <td><input type="button" value="4" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="5" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="6" onclick="userProcessEntry(this)"></td>
+      <td><input type="button" value="%" onclick="userProcessEntry(this)"></td>
+       <td><input type="button" value="*" onclick="userProcessEntry(this)"></td>
+   </tr>
+   <tr>
+     <td><input type="button"  value="1" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="2" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="3" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="&radic;" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="-" onclick="userProcessEntry(this)"></td>
+   </tr>
+   <tr>
+     <td><input type="button" value="&#177" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="0" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="&#46;" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="**" onclick="userProcessEntry(this)"></td>
+     <td><input type="button" value="+" onclick="userProcessEntry(this)"></td>
+  <tr>
+    <td><input type="button" value="sin" onclick="sci(this)"></td> 
+     <td><input type="button" value="cos" onclick="sci(this)"></td>`
+     <td><input type="button" value="tan" onclick="sci(this)"></td>
+     <td><input type="button" value="ln" onclick="sci(this)"></td>
+     <td><input type="button" value="=" onclick="equal()"> </td>
+  </tr>
+ </table>
+    
+</form>
+        </body>
+    <footer>
+    Copyright &copy;Aakash Patel</footer>
+     </html>
+     
